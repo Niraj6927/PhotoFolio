@@ -1,0 +1,61 @@
+
+/* button contaienr */
+.btnContainer{
+    height: auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* serach bar withing button container */
+.btnContainer input{
+    width: 50%;
+}
+
+/* buttons */
+.btn{
+    width: 100px;
+    height: 35px;
+    color: white;
+}
+
+/* back button */
+.backBtn{
+        float: left;
+        background-color: rgb(248, 252, 253);
+        border: none;
+        border-radius: 7px;
+        box-shadow: 0 3px 8px rgba(0, 0, 0, .24);
+        color: black;
+        cursor: pointer;
+        font-size: 1.1rem;
+        font-weight: 600;
+        outline: none;
+        padding-block: 7px;
+        width: 100px;
+}
+
+/* add image button */
+.addBtn{
+        float: right;
+        background-color: rgba(0, 119, 255, .1);
+        border: 2px solid #07f;
+        border-radius: 5px;
+        color: #07f;
+        cursor: pointer;
+        font-weight: 700;
+        outline: none;
+        padding: 5px 10px;
+}
+
+
+
+
+/* imagelist containing all the image cards */
+.imageList{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+
+  
